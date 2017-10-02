@@ -1,0 +1,37 @@
+Q: How did viewing a diff between two versions of help you spot the bug?
+
+Finding a bug in a file with ~1200 lines of code is not an easy task, using diff with the old, working version of file it could 
+be done in seconds
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you made a mistake or typo in your code you can easilly track it down and fix, also you can re-write your code and not to be 
+afraid of lost part of it or entire code
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google Docs does?
+
+Manual saving let you to rule your workflow. If you are making huge commit though, you can lose some of your work due to 
+hardware failure for example. And with some autosave feature, you lose less. I suppose splitting of your huge logical change 
+into smaller ones is a good point.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like 
+Google Docs, treat each file separately?
+
+Some VCS were designed to work with multiple files while other imply working with single file. It depends on main purpose of 
+VCS.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+With git log command you can see recent commits to the repository. Git diff with 2 commit ids prints a change in repository 
+made with that commit, --stat option prints statistics about this change.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+As soon as you can revert your mistakes and see where you made it, you are more confident even with danger changes.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+I have switched to zsh recently and I don't know well how to tweak it, so I leave it as it is. But showing commit ID is a handy 
+feature.
+
