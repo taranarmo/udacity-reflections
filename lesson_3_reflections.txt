@@ -10,3 +10,6 @@ Forking is a creating copy of some repo to your account on GitHub (or somewhere 
 Q:What is the benefit of having a copy of the last known state of the remote stored locally?
 It is convinient to have remote state locally, as it helps you to track possible conflicts via saying that you repo is ahead of remote r vice versa, also in case of blackout or other situations without internet access.
 
+Q:How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Well, it could be done simply sending new versions of files to collaborators. As soon as only one person work on project at the time, there can not be any conflicts. But if someone else wiil make some changes and it is quite big, it is painful to handle merging by hand. Also there are other version control systems.
+
