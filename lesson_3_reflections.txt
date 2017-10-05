@@ -13,3 +13,6 @@ It is convinient to have remote state locally, as it helps you to track possible
 Q:How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Well, it could be done simply sending new versions of files to collaborators. As soon as only one person work on project at the time, there can not be any conflicts. But if someone else wiil make some changes and it is quite big, it is painful to handle merging by hand. Also there are other version control systems.
 
+Q:When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You may want to make a branch when you want to make changes you don't want to show to others yet or make something breaking normal work of your project for some time. Though if you work on master branch, it is much easier to keep the code updated.
+
