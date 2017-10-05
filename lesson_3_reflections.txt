@@ -3,3 +3,7 @@ When you want to share your work, get access to other person to work on your pro
 
 Q:Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 And again, manual pushing lets you to control your project and how it looks. Also you may have very poor internet connection, so you pushes may be slow.
+
+Q:Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forking is a creating copy of some repo to your account on GitHub (or somewhere else) to be able to modify it, cloning is a creating copy of that on your machine and it could be done without GitHub account, branch is a copy of a repo on the same machine where it is. If you want to participate on someone work publicly and do not affraid of GitHub you should fork it. Else you may want to clone it. And if you have a desire to make big changes in your project or prototype something without breaking working version, you should clone.
+
